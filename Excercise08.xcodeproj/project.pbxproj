@@ -13,6 +13,9 @@
 		EACBC390150141EB00A42720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACBC38E150141EB00A42720 /* InfoPlist.strings */; };
 		EACBC392150141EB00A42720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC391150141EB00A42720 /* main.m */; };
 		EACBC396150141EC00A42720 /* Ex08AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC395150141EC00A42720 /* Ex08AppDelegate.m */; };
+		EACBC39F1501420E00A42720 /* ChildUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC39D1501420E00A42720 /* ChildUIViewController.m */; };
+		EACBC3A01501420E00A42720 /* ChildUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACBC39E1501420E00A42720 /* ChildUIViewController.xib */; };
+		EACBC3A31501429100A42720 /* MyUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC3A21501429100A42720 /* MyUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		EACBC385150141EB00A42720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EACBC387150141EB00A42720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EACBC389150141EB00A42720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EACBC38D150141EB00A42720 /* Excercise08-Info.plist */ = {isa = PBXFileReference; path = "Excercise08-Info.plist"; sourceTree = "<group>"; };
+		EACBC38D150141EB00A42720 /* Excercise08-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Excercise08-Info.plist"; sourceTree = "<group>"; };
 		EACBC38F150141EB00A42720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EACBC391150141EB00A42720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EACBC393150141EB00A42720 /* Excercise08-Prefix.pch */ = {isa = PBXFileReference; path = "Excercise08-Prefix.pch"; sourceTree = "<group>"; };
-		EACBC394150141EC00A42720 /* Ex08AppDelegate.h */ = {isa = PBXFileReference; path = Ex08AppDelegate.h; sourceTree = "<group>"; };
+		EACBC393150141EB00A42720 /* Excercise08-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Excercise08-Prefix.pch"; sourceTree = "<group>"; };
+		EACBC394150141EC00A42720 /* Ex08AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex08AppDelegate.h; sourceTree = "<group>"; };
 		EACBC395150141EC00A42720 /* Ex08AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex08AppDelegate.m; sourceTree = "<group>"; };
+		EACBC39C1501420E00A42720 /* ChildUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildUIViewController.h; sourceTree = "<group>"; };
+		EACBC39D1501420E00A42720 /* ChildUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildUIViewController.m; sourceTree = "<group>"; };
+		EACBC39E1501420E00A42720 /* ChildUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildUIViewController.xib; sourceTree = "<group>"; };
+		EACBC3A11501429100A42720 /* MyUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewController.h; sourceTree = "<group>"; };
+		EACBC3A21501429100A42720 /* MyUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,9 @@
 				EACBC394150141EC00A42720 /* Ex08AppDelegate.h */,
 				EACBC395150141EC00A42720 /* Ex08AppDelegate.m */,
 				EACBC38C150141EB00A42720 /* Supporting Files */,
+				EACBC39C1501420E00A42720 /* ChildUIViewController.h */,
+				EACBC39D1501420E00A42720 /* ChildUIViewController.m */,
+				EACBC39E1501420E00A42720 /* ChildUIViewController.xib */,
 			);
 			path = Excercise08;
 			sourceTree = "<group>";
@@ -86,6 +97,8 @@
 				EACBC38E150141EB00A42720 /* InfoPlist.strings */,
 				EACBC391150141EB00A42720 /* main.m */,
 				EACBC393150141EB00A42720 /* Excercise08-Prefix.pch */,
+				EACBC3A11501429100A42720 /* MyUITableViewController.h */,
+				EACBC3A21501429100A42720 /* MyUITableViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACBC390150141EB00A42720 /* InfoPlist.strings in Resources */,
+				EACBC3A01501420E00A42720 /* ChildUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +167,8 @@
 			files = (
 				EACBC392150141EB00A42720 /* main.m in Sources */,
 				EACBC396150141EC00A42720 /* Ex08AppDelegate.m in Sources */,
+				EACBC39F1501420E00A42720 /* ChildUIViewController.m in Sources */,
+				EACBC3A31501429100A42720 /* MyUITableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

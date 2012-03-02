@@ -7,13 +7,18 @@
 //
 
 #import "Ex08AppDelegate.h"
+#import "MyUITableViewController.h"
+
 
 @implementation Ex08AppDelegate
-
 @synthesize window = _window;
+
+UINavigationController *nc;
+
 
 - (void)dealloc
 {
+    [nc release];
     [_window release];
     [super dealloc];
 }
@@ -23,6 +28,15 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    nc = [[UINavigationController alloc] init];
+    MyUITableViewController *tvc = [[MyUITableViewController alloc]
+                                    initWithStyle:UITableViewStylePlain];
+    tvc.title = @"Table View";
+    [nc pushViewController:tvc animated:NO];
+    [tvc release];
+    [self.window addSubview:nc.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
