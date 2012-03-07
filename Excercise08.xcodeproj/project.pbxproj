@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA906D861506940500D11B79 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA906D841506940500D11B79 /* MyViewController.m */; };
+		EA906D871506940500D11B79 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA906D851506940500D11B79 /* MyViewController.xib */; };
+		EA906D8B1506962700D11B79 /* MyTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA906D8A1506962700D11B79 /* MyTableDataSource.m */; };
+		EA906D8E1506963D00D11B79 /* MyTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA906D8D1506963C00D11B79 /* MyTableDelegate.m */; };
 		EACBC386150141EB00A42720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBC385150141EB00A42720 /* UIKit.framework */; };
 		EACBC388150141EB00A42720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBC387150141EB00A42720 /* Foundation.framework */; };
 		EACBC38A150141EB00A42720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACBC389150141EB00A42720 /* CoreGraphics.framework */; };
@@ -15,10 +19,16 @@
 		EACBC396150141EC00A42720 /* Ex08AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC395150141EC00A42720 /* Ex08AppDelegate.m */; };
 		EACBC39F1501420E00A42720 /* ChildUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC39D1501420E00A42720 /* ChildUIViewController.m */; };
 		EACBC3A01501420E00A42720 /* ChildUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACBC39E1501420E00A42720 /* ChildUIViewController.xib */; };
-		EACBC3A31501429100A42720 /* MyUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACBC3A21501429100A42720 /* MyUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA906D831506940500D11B79 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		EA906D841506940500D11B79 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		EA906D851506940500D11B79 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		EA906D891506962700D11B79 /* MyTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableDataSource.h; sourceTree = "<group>"; };
+		EA906D8A1506962700D11B79 /* MyTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableDataSource.m; sourceTree = "<group>"; };
+		EA906D8C1506963C00D11B79 /* MyTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableDelegate.h; sourceTree = "<group>"; };
+		EA906D8D1506963C00D11B79 /* MyTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableDelegate.m; sourceTree = "<group>"; };
 		EACBC381150141EB00A42720 /* Excercise08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Excercise08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACBC385150141EB00A42720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EACBC387150141EB00A42720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,8 +42,6 @@
 		EACBC39C1501420E00A42720 /* ChildUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildUIViewController.h; sourceTree = "<group>"; };
 		EACBC39D1501420E00A42720 /* ChildUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildUIViewController.m; sourceTree = "<group>"; };
 		EACBC39E1501420E00A42720 /* ChildUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildUIViewController.xib; sourceTree = "<group>"; };
-		EACBC3A11501429100A42720 /* MyUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableViewController.h; sourceTree = "<group>"; };
-		EACBC3A21501429100A42720 /* MyUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,13 @@
 				EACBC38E150141EB00A42720 /* InfoPlist.strings */,
 				EACBC391150141EB00A42720 /* main.m */,
 				EACBC393150141EB00A42720 /* Excercise08-Prefix.pch */,
-				EACBC3A11501429100A42720 /* MyUITableViewController.h */,
-				EACBC3A21501429100A42720 /* MyUITableViewController.m */,
+				EA906D831506940500D11B79 /* MyViewController.h */,
+				EA906D841506940500D11B79 /* MyViewController.m */,
+				EA906D851506940500D11B79 /* MyViewController.xib */,
+				EA906D891506962700D11B79 /* MyTableDataSource.h */,
+				EA906D8A1506962700D11B79 /* MyTableDataSource.m */,
+				EA906D8C1506963C00D11B79 /* MyTableDelegate.h */,
+				EA906D8D1506963C00D11B79 /* MyTableDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +168,7 @@
 			files = (
 				EACBC390150141EB00A42720 /* InfoPlist.strings in Resources */,
 				EACBC3A01501420E00A42720 /* ChildUIViewController.xib in Resources */,
+				EA906D871506940500D11B79 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +182,9 @@
 				EACBC392150141EB00A42720 /* main.m in Sources */,
 				EACBC396150141EC00A42720 /* Ex08AppDelegate.m in Sources */,
 				EACBC39F1501420E00A42720 /* ChildUIViewController.m in Sources */,
-				EACBC3A31501429100A42720 /* MyUITableViewController.m in Sources */,
+				EA906D861506940500D11B79 /* MyViewController.m in Sources */,
+				EA906D8B1506962700D11B79 /* MyTableDataSource.m in Sources */,
+				EA906D8E1506963D00D11B79 /* MyTableDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				EACBC39B150141EC00A42720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

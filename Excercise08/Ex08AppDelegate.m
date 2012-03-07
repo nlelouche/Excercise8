@@ -7,7 +7,7 @@
 //
 
 #import "Ex08AppDelegate.h"
-#import "MyUITableViewController.h"
+#import "MyViewController.h"
 
 
 @implementation Ex08AppDelegate
@@ -30,11 +30,11 @@ UINavigationController *nc;
     self.window.backgroundColor = [UIColor whiteColor];
     
     nc = [[UINavigationController alloc] init];
-    MyUITableViewController *tvc = [[MyUITableViewController alloc]
-                                    initWithStyle:UITableViewStylePlain];
-    tvc.title = @"Table View";
-    [nc pushViewController:tvc animated:NO];
-    [tvc release];
+    MyViewController *vc = [[[MyViewController alloc] initWithNibName:@"MyViewController" 
+                                                               bundle:nil] 
+                            autorelease];
+    vc.title = @"Table View";
+    [nc pushViewController:vc animated:NO];
     [self.window addSubview:nc.view];
     
     [self.window makeKeyAndVisible];
